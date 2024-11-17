@@ -1,8 +1,6 @@
 import "../../index.css";
 import "./body.css";
-import FeatureImg from "../img/feature.jpeg";
 import CardBar from "../CardBar/CardBar";
-import HelpCard from "../HelpCard/HelpCard";
 
 const Body = () => {
   return (
