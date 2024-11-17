@@ -1,0 +1,236 @@
+District_Name,Soil_color,Nitrogen,Phosphorus,Potassium,pH,Rainfall,Temperature,Crop,Fertilizer
+Mangalore,Black,75,50,100,6.5,1000,20,Rice,Urea
+Mangalore,Black,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Mangalore,Black,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient
+Mangalore,Black,105,70,130,6.9,950,24,Tea,SSP
+Mangalore,Black,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Mangalore,Black,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Mangalore,Black,110,85,140,6.4,1100,26,Arecanut,DAP
+Mangalore,Black,95,55,120,6.6,1000,28,Rubber,MOP
+Mangalore,Black,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Mangalore,Black,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Mangalore,Red,60,45,90,7,800,25,Coconut,DAP
+Mangalore,Red,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Mangalore,Red,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Mangalore,Red,105,70,130,6.9,950,24,Tea,SSP
+Mangalore,Red,95,65,120,6.2,850,28,Banana,SSP
+Mangalore,Red,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Mangalore,Red,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Mangalore,Red,85,55,110,6.8,900,22,Coffee,MOP
+Mangalore,Red,110,85,140,6.4,1100,26,Arecanut,DAP
+Mangalore,Red,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Mangalore,Dark Brown,85,55,110,6.8,900,22,Coffee,MOP
+Mangalore,Dark Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Mangalore,Dark Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Mangalore,Dark Brown,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Mangalore,Dark Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Mangalore,Dark Brown,75,50,100,6.5,1000,20,Rice,Urea
+Mangalore,Dark Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Mangalore,Dark Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Mangalore,Dark Brown,105,70,130,6.9,950,24,Tea,SSP
+Mangalore,Dark Brown,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient
+Mangalore,Reddish Brown,95,65,120,6.2,850,28,Banana,SSP
+Mangalore,Reddish Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Mangalore,Reddish Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Mangalore,Reddish Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Mangalore,Reddish Brown,85,55,110,6.8,900,22,Coffee,MOP
+Mangalore,Reddish Brown,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Mangalore,Reddish Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Mangalore,Reddish Brown,75,50,100,6.5,1000,20,Rice,Urea
+Mangalore,Reddish Brown,105,70,130,6.9,950,24,Tea,SSP
+Mangalore,Reddish Brown,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Mangalore,Reddish Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Coimbatore,Black,75,50,100,6.5,1000,20,Rice,Urea
+Coimbatore,Black,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Coimbatore,Black,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient
+Coimbatore,Black,105,70,130,6.9,950,24,Tea,SSP
+Coimbatore,Black,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Coimbatore,Black,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Coimbatore,Black,110,85,140,6.4,1100,26,Arecanut,DAP
+Coimbatore,Black,95,55,120,6.6,1000,28,Rubber,MOP
+Coimbatore,Black,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Coimbatore,Black,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Coimbatore,Red,60,45,90,7,800,25,Coconut,DAP
+Coimbatore,Red,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Coimbatore,Red,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Coimbatore,Red,105,70,130,6.9,950,24,Tea,SSP
+Coimbatore,Red,95,65,120,6.2,850,28,Banana,SSP
+Coimbatore,Red,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Coimbatore,Red,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Coimbatore,Red,85,55,110,6.8,900,22,Coffee,MOP
+Coimbatore,Red,110,85,140,6.4,1100,26,Arecanut,DAP
+Coimbatore,Red,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Coimbatore,Dark Brown,85,55,110,6.8,900,22,Coffee,MOP
+Coimbatore,Dark Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Coimbatore,Dark Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Coimbatore,Dark Brown,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Coimbatore,Dark Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Coimbatore,Dark Brown,75,50,100,6.5,1000,20,Rice,Urea
+Coimbatore,Dark Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Coimbatore,Dark Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Coimbatore,Dark Brown,105,70,130,6.9,950,24,Tea,SSP
+Coimbatore,Dark Brown,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient
+Coimbatore,Reddish Brown,95,65,120,6.2,850,28,Banana,SSP
+Coimbatore,Reddish Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Coimbatore,Reddish Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Coimbatore,Reddish Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Coimbatore,Reddish Brown,85,55,110,6.8,900,22,Coffee,MOP
+Coimbatore,Reddish Brown,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Coimbatore,Reddish Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Coimbatore,Reddish Brown,75,50,100,6.5,1000,20,Rice,Urea
+Coimbatore,Reddish Brown,105,70,130,6.9,950,24,Tea,SSP
+Coimbatore,Reddish Brown,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Coimbatore,Reddish Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Mysore,Black,75,50,100,6.5,1000,20,Rice,Urea
+Mysore,Black,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Mysore,Black,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient
+Mysore,Black,105,70,130,6.9,950,24,Tea,SSP
+Mysore,Black,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Mysore,Black,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Mysore,Black,110,85,140,6.4,1100,26,Arecanut,DAP
+Mysore,Black,95,55,120,6.6,1000,28,Rubber,MOP
+Mysore,Black,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Mysore,Black,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Mysore,Red,60,45,90,7,800,25,Coconut,DAP
+Mysore,Red,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Mysore,Red,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Mysore,Red,105,70,130,6.9,950,24,Tea,SSP
+Mysore,Red,95,65,120,6.2,850,28,Banana,SSP
+Mysore,Red,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Mysore,Red,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Mysore,Red,85,55,110,6.8,900,22,Coffee,MOP
+Mysore,Red,110,85,140,6.4,1100,26,Arecanut,DAP
+Mysore,Red,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Mysore,Dark Brown,85,55,110,6.8,900,22,Coffee,MOP
+Mysore,Dark Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Mysore,Dark Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Mysore,Dark Brown,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Mysore,Dark Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Mysore,Dark Brown,75,50,100,6.5,1000,20,Rice,Urea
+Mysore,Dark Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Mysore,Dark Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Mysore,Dark Brown,105,70,130,6.9,950,24,Tea,SSP
+Mysore,Dark Brown,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient
+Mysore,Reddish Brown,95,65,120,6.2,850,28,Banana,SSP
+Mysore,Reddish Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Mysore,Reddish Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Mysore,Reddish Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Mysore,Reddish Brown,85,55,110,6.8,900,22,Coffee,MOP
+Mysore,Reddish Brown,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Mysore,Reddish Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Mysore,Reddish Brown,75,50,100,6.5,1000,20,Rice,Urea
+Mysore,Reddish Brown,105,70,130,6.9,950,24,Tea,SSP
+Mysore,Reddish Brown,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Mysore,Reddish Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Madurai,Black,75,50,100,6.5,1000,20,Rice,Urea
+Madurai,Black,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Madurai,Black,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient
+Madurai,Black,105,70,130,6.9,950,24,Tea,SSP
+Madurai,Black,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Madurai,Black,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Madurai,Black,110,85,140,6.4,1100,26,Arecanut,DAP
+Madurai,Black,95,55,120,6.6,1000,28,Rubber,MOP
+Madurai,Black,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Madurai,Black,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Madurai,Red,60,45,90,7,800,25,Coconut,DAP
+Madurai,Red,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Madurai,Red,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Madurai,Red,105,70,130,6.9,950,24,Tea,SSP
+Madurai,Red,95,65,120,6.2,850,28,Banana,SSP
+Madurai,Red,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Madurai,Red,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Madurai,Red,85,55,110,6.8,900,22,Coffee,MOP
+Madurai,Red,110,85,140,6.4,1100,26,Arecanut,DAP
+Madurai,Red,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Madurai,Dark Brown,85,55,110,6.8,900,22,Coffee,MOP
+Madurai,Dark Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Madurai,Dark Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Madurai,Dark Brown,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Madurai,Dark Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Madurai,Dark Brown,75,50,100,6.5,1000,20,Rice,Urea
+Madurai,Dark Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Madurai,Dark Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Madurai,Dark Brown,105,70,130,6.9,950,24,Tea,SSP
+Madurai,Dark Brown,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient
+Madurai,Reddish Brown,95,65,120,6.2,850,28,Banana,SSP
+Madurai,Reddish Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Madurai,Reddish Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Madurai,Reddish Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Madurai,Reddish Brown,85,55,110,6.8,900,22,Coffee,MOP
+Madurai,Reddish Brown,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Madurai,Reddish Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Madurai,Reddish Brown,75,50,100,6.5,1000,20,Rice,Urea
+Madurai,Reddish Brown,105,70,130,6.9,950,24,Tea,SSP
+Madurai,Reddish Brown,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Madurai,Reddish Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Chennai,Black,75,50,100,6.5,1000,20,Rice,Urea
+Chennai,Black,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Chennai,Black,80,60,100,6.3,850,29,Groundnut,Chelated Micronutrient
+Chennai,Black,105,70,130,6.9,950,24,Tea,SSP
+Chennai,Black,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Chennai,Black,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Chennai,Black,110,85,140,6.4,1100,26,Arecanut,DAP
+Chennai,Black,95,55,120,6.6,1000,28,Rubber,MOP
+Chennai,Black,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Chennai,Black,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Chennai,Red,60,45,90,7,800,25,Coconut,DAP
+Chennai,Red,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Chennai,Red,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Chennai,Red,105,70,130,6.9,950,24,Tea,SSP
+Chennai,Red,95,65,120,6.2,850,28,Banana,SSP
+Chennai,Red,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Chennai,Red,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Chennai,Red,85,55,110,6.8,900,22,Coffee,MOP
+Chennai,Red,110,85,140,6.4,1100,26,Arecanut,DAP
+Chennai,Red,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Chennai,Dark Brown,85,55,110,6.8,900,22,Coffee,MOP
+Chennai,Dark Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Chennai,Dark Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Chennai,Dark Brown,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Chennai,Dark Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Chennai,Dark Brown,75,50,100,6.5,1000,20,Rice,Urea
+Chennai,Dark Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Chennai,Dark Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Chennai,Dark Brown,105,70,130,6.9,950,24,Tea,SSP
+Chennai,Dark Brown,80,60,100,6.3,850,29,Groundnut,Chelated Micronutrient
+Chennai,Reddish Brown,95,65,120,6.2,850,28,Banana,SSP
+Chennai,Reddish Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Chennai,Reddish Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Chennai,Reddish Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Chennai,Reddish Brown,85,55,110,6.8,900,22,Coffee,MOP
+Chennai,Reddish Brown,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Chennai,Reddish Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Chennai,Reddish Brown,75,50,100,6.5,1000,20,Rice,Urea
+Chennai,Reddish Brown,105,70,130,6.9,950,24,Tea,SSP
+Chennai,Reddish Brown,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Chennai,Reddish Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Hassan,Black,75,50,100,6.5,1000,20,Rice,Urea
+Hassan,Black,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Hassan,Black,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient
+Hassan,Black,105,70,130,6.9,950,24,Tea,SSP
+Hassan,Black,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Hassan,Black,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Hassan,Black,110,85,140,6.4,1100,26,Arecanut,DAP
+Hassan,Black,95,55,120,6.6,1000,28,Rubber,MOP
+Hassan,Black,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Hassan,Black,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Hassan,Red,60,45,90,7,800,25,Coconut,DAP
+Hassan,Red,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Hassan,Red,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Hassan,Red,105,70,130,6.9,950,24,Tea,SSP
+Hassan,Red,95,65,120,6.2,850,28,Banana,SSP
+Hassan,Red,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Hassan,Red,70,45,100,6.1,800,30,Black Pepper,50:26:26 NPK
+Hassan,Red,85,55,110,6.8,900,22,Coffee,MOP
+Hassan,Red,110,85,140,6.4,1100,26,Arecanut,DAP
+Hassan,Red,70,35,85,7.5,750,27,Sugarcane,19:19:19 NPK
+Hassan,Dark Brown,85,55,110,6.8,900,22,Coffee,MOP
+Hassan,Dark Brown,110,85,140,6.4,1100,26,Arecanut,DAP
+Hassan,Dark Brown,55,40,75,6,600,21,Millets,Ammonium Sulphate
+Hassan,Dark Brown,90,70,110,6.7,950,30,Cotton,18:46:00 NPK
+Hassan,Dark Brown,95,55,120,6.6,1000,28,Rubber,MOP
+Hassan,Dark Brown,75,50,100,6.5,1000,20,Rice,Urea
+Hassan,Dark Brown,100,75,130,5.9,1200,24,Spices,50:26:26 NPK
+Hassan,Dark Brown,65,50,95,7.8,700,32,Vegetables,20:20:20 NPK
+Hassan,Dark Brown,105,70,130,6.9,950,24,Tea,SSP
+Hassan,Dark Brown,80,60,100,6.3,850,29,Groundnut,Chilated Micronutrient

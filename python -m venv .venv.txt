@@ -1,0 +1,34 @@
+python -m venv .venv
+source .venv/bin/activate   # On Windows, use .venv\Scripts\activate
+pip install -r requirements.txt
+
+Python 3.10.0 version download
+
+
+
+
+
+
+
+
+Flask==2.3.2
+joblib==1.2.0
+pandas==2.0.3
+scikit-learn==1.2.2
+this is my old requirement 
+an now i using Python 3.12.4 give the edited requirement
+
+
+
+
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+
+
+
+
+C:\Users\LENOVO\AppData\Local\Programs\Python\Python311
+
+
+pip install -r requirements.txt

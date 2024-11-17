@@ -1,0 +1,297 @@
+import React, { useState } from "react";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/footer";
+import axios from "axios";
+
+const FertilizerForm = () => {
+  const [district, setdistrict] = useState("");
+  const [soil, setsoil] = useState("");
+  const [croptype, setcroptype] = useState("");
+  const [nitrogen, setNitrogen] = useState("");
+  const [phosphorus, setPhosphorus] = useState("");
+  const [potassium, setPotassium] = useState("");
+  const [ph, setph] = useState("");
+  const [rainfall, setrainfall] = useState("");
+  const [temperature, setTemperature] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [recommendation, setRecommendation] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const validateInput = (value, setValue, min, max, isFloat = false) => {
+    if (value === "") {
+      setErrorMessage("");
+      setValue(value);
+      return;
+    }
+    const numValue = isFloat ? parseFloat(value) : parseInt(value);
+    if (isNaN(numValue)) {
+      setErrorMessage("Input must be a number");
+    } else if (numValue < min || numValue > max) {
+      setErrorMessage(`Input must be within the range of ${min}-${max}`);
+    } else {
+      setErrorMessage("");
+      setValue(value);
+    }
+  };
+
+  const handleSelectDistrict = (e) => {
+    setdistrict(e.target.value);
+  };
+  const handleSelectsoil = (e) => {
+    setsoil(e.target.value);
+  };
+
+  const handleSelectcrop = (e) => {
+    setcroptype(e.target.value);
+  };
+
+  const resetForm = () => {
+    setdistrict("");
+    setsoil("");
+    setcroptype("");
+    setNitrogen("");
+    setPhosphorus("");
+    setPotassium("");
+    setph("");
+    setrainfall("");
+    setTemperature("");
+  };
+
+  const onSearchSubmit = async (e) => {
+    e.preventDefault();
+
+    if (
+      !district ||
+      !soil ||
+      !croptype ||
+      !nitrogen ||
+      !phosphorus ||
+      !potassium ||
+      !ph ||
+      !rainfall ||
+      !temperature
+    ) {
+      alert("Please fill out all the fields");
+      return;
+    }
+
+    console.log("Data to be sent:", {
+      district,
+      soil,
+      croptype,
+      nitrogen,
+      phosphorus,
+      potassium,
+      ph,
+      rainfall,
+      temperature
+    });
+    setIsLoading(true);
+    console.log("Clicked");
+
+    const url = "http://127.0.0.1:5000/predict";
+    const body = JSON.stringify({
+      district,
+      soil,
+      croptype,
+      nitrogen,
+      phosphorus,
+      potassium,
+      ph,
+      rainfall,
+      temperature
+    });
+
+    try {
+      const response = await axios.post(url, body, {
+        headers: {
+          "Content-Type": "application/json"
+        }
+      });
+
+      const recommendedFertilizer = response.data["RecommendedFertilizer"];
+      console.log(recommendedFertilizer);
+
+      setRecommendation(recommendedFertilizer); // Set the recommendation to state
+      alert("Fertilizer recommendation fetched successfully");
+      resetForm(); // Clear all input fields after successful submission
+    } catch (error) {
+      console.error(
+        "Error fetching fertilizer recommendation:",
+        error.response ? error.response.data : error.message
+      );
+      alert(
+        "Failed to fetch fertilizer recommendation. Please try again later."
+      );
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <>
+      <Header />
+      <form onSubmit={onSearchSubmit}>
+        <div className="grid place-items-center my-14">
+          <div className="container bg-gray-100 p-10 grid place-items-center mt-14">
+            <p className="text-2xl font-medium text-green-600 my-12">
+              Predict the Fertilizer for your crop
+            </p>
+            <div className="flex flex-row my-2 w-3/5">
+              <div>Select a District</div>
+              <div className="ml-16">
+                <select
+                  value={district}
+                  onChange={handleSelectDistrict}
+                  className="border-2 border-green-600 p-2 rounded-sm w-64"
+                >
+                  <option value="">Select District </option>
+                  <option value="Mangalore">Mangalore</option>
+                  <option value="Coimbatore">Coimbatore </option>
+                  <option value="Chennai">Chennai </option>
+                  <option value="Madurai">Madurai </option>
+                  <option value="Hassan">Hassan </option>
+                  <option value="Mysore">Mysore </option>
+                </select>
+              </div>
+            </div>
+            <div className="flex flex-row my-2 w-3/5">
+              <div>Select a Soil Type</div>
+              <div className="ml-16">
+                <select
+                  value={soil}
+                  onChange={handleSelectsoil}
+                  className="border-2 border-green-600 p-2 rounded-sm w-64"
+                >
+                  <option value="">Select soil type </option>
+                  <option value="Black">Black</option>
+                  <option value="Red">Red</option>
+                  <option value="Reddish Brown">Reddish Brown</option>
+                  <option value="Dark Brown">Dark Brown</option>
+                </select>
+              </div>
+            </div>
+            <div className="flex flex-row my-2 w-3/5">
+              <div>Select a Crop Type</div>
+              <div className="ml-16">
+                <select
+                  value={croptype}
+                  onChange={handleSelectcrop}
+                  className="border-2 border-green-600 p-2 rounded-sm w-64"
+                >
+                  <option value="">Select Crop</option>
+                  <option value="Rice">Rice</option>
+                  <option value="Groundnut">Groundnut</option>
+                  <option value="Sugarcane">Sugarcane</option>
+                  <option value="Coconut">Coconut </option>
+                  <option value="Arecanut">Arecanut </option>
+                  <option value="Spices">Spices </option>
+                  <option value="Vegetables">Vegetables </option>
+                  <option value="Black Pepper">Black Pepper </option>
+                  <option value="Rubber">Rubber </option>
+                  <option value="Cotton">Cotton </option>
+                </select>
+              </div>
+            </div>
+            {/* 
+            <input
+              value={nitrogen}
+              onChange={(e) =>
+                validateInput(e.target.value, setNitrogen, 1, 150)
+              }
+              className="w-3/5 my-2"
+              type="number"
+              placeholder="Enter nitrogen value(20-150)"
+            /> */}
+            <input
+              value={nitrogen}
+              onChange={(e) =>
+                validateInput(e.target.value, setNitrogen, 1, 150)
+              }
+              // onBlur={(e) => {
+              //   const value = e.target.value;
+              //   if (value && (value < 20 || value > 150)) {
+              //     alert("Please enter a value between 20 and 150.");
+              //   }
+              // }}
+              className="w-3/5 my-2"
+              type="number"
+              placeholder="Enter nitrogen value (20-150)"
+            />
+            <input
+              value={phosphorus}
+              onChange={(e) =>
+                validateInput(e.target.value, setPhosphorus, 1, 90)
+              }
+              className="w-3/5 my-2"
+              type="number"
+              placeholder="Enter phosphorous value(20-90)"
+            />
+
+            <input
+              value={potassium}
+              onChange={(e) =>
+                validateInput(e.target.value, setPotassium, 1, 150)
+              }
+              className="w-3/5 my-2"
+              type="number"
+              placeholder="Enter potassium value(5-150)"
+            />
+            <input
+              value={ph}
+              onChange={(e) =>
+                validateInput(e.target.value, setph, 1.0, 8.5, true)
+              }
+              className="w-3/5 my-2"
+              type="text"
+              placeholder="Enter ph value(5.5-8.5)"
+            />
+            <input
+              value={rainfall}
+              onChange={(e) =>
+                validateInput(e.target.value, setrainfall, 1, 1700)
+              }
+              className="w-3/5 my-2"
+              type="number"
+              placeholder="Enter Rainfall value(300-1700)"
+            />
+            <input
+              value={temperature}
+              onChange={(e) =>
+                validateInput(e.target.value, setTemperature, 1, 40)
+              }
+              className="w-3/5 my-2"
+              type="number"
+              placeholder="Enter Temperature value(10-40)"
+            />
+            <div className="grid place-items-center mt-14">
+              <div className="mt-2">
+                <button
+                  type="submit"
+                  className="inline-block px-6 py-2.5 bg-green-600 text-white font-medium text-xs 
+                  leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg
+                  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800
+                  active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Get Fertilizer Recommendation
+                </button>
+              </div>
+              {/* {errorMessage && <p className="error-message">{errorMessage}</p>} */}
+            </div>
+            {/* Display the recommendation */}
+            {recommendation && (
+              <div className="mt-6 text-center">
+                <p className="text-xl font-semibold text-green-700">
+                  Recommended Fertilizer: {recommendation}
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+      </form>
+      <Footer />
+    </>
+  );
+};
+
+export default FertilizerForm;

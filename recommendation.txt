@@ -1,0 +1,63 @@
+try {
+      fetch(url, {
+        // mode: "no-cors",
+        method: "post",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
+          "Access-Control-Allow-Origin": "*"
+        },
+        body: body
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          let main_data = data["data"];
+          setPrediction(main_data["prediction"]);
+          setInformation(main_data["info"]["info"]);
+          setApplication(
+            main_data["info"]["application"]["1"] +
+              " " +
+              main_data["info"]["application"]["2"]
+          );
+          setSpecification(main_data["info"]["specifications"]);
+          console.log("res", data); // gives SyntaxError: Unexpected end of input
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    } catch (e) {
+      console.log(e);
+    }
+
+    setLoad(false);
+  }
+
+
+
+
+
+
+
+
+
+
+ <div>
+          {load ? (
+            <div className="grid place-items-center my-14  ">loading </div>
+          ) : (
+            <div></div>
+          )}
+          {prediction !== "" ? (
+            <div className="grid place-items-center my-14 text-center ">
+              <p className="font-bold my-3">Fertilizer Predicted: </p>
+              {prediction}
+              <p className="font-bold my-3">Information</p>
+              {information}
+              <p className="font-bold my-3">Application</p>
+              {application}
+              <p className="font-bold my-3">Specification</p>
+              {specification}
+            </div>
+          ) : (
+            <div></div>
+          )}
+        </div>

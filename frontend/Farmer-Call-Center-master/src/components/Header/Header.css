@@ -1,0 +1,18 @@
+.logoWeb {
+    height: 60px;
+    width: 90px;
+    
+}
+/* #head{
+    background-color: rgb(207, 215, 136);
+    width: 100%;
+    color: black;
+} */
+/* #t{
+    color: black;
+} */
+@media screen and (max-width: 500px) {
+    .inPhone {
+        display: none;
+    }
+}

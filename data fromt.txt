@@ -1,0 +1,23 @@
+give me a data set in a table formate
+
+select the south Indian cities
+soil_color"Black,Red,Dark Brown,Reddish Brown"
+Crop use the south indian crops and related to that state 
+Fertilizer "Urea, DAP,MOP,SSP,19:19:19 NPK,50:26:26 NPK,Ammonium Sulphate,20:20:20 NPK,Chilated Micronutrient,18:46:00 NPK"
+Nitrogen in range of 20-150
+Phosphorus in range of 20-90
+Potassium in range of 5-150
+pH in range of 5.5-8.5
+
+Rainfall in range of 300-1700
+Temperature in range of 10-40
+
+
+District_Name	Soil_color	Nitrogen	Phosphorus	Potassium	pH	Rainfall	Temperature	Crop	Fertilizer
+
+
+sample is this
+Manglore	Black	          75	           50	          100	        6.5	  1000	            20	      Rice	 Urea
+
+
+give me a comlete data set in table formate
