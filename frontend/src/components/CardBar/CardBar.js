@@ -1,7 +1,4 @@
 import { Component } from "react";
-import Image from "../img/voice-message.png";
-import SMS from "../img/sms.png";
-import Help from "../img/help-desk.png";
 
 class CardBar extends Component {
   render() {

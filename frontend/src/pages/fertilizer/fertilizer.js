@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/footer";
 import axios from "axios";
 import "./fertilizer.css";
 
@@ -14,7 +13,7 @@ const FertilizerForm = () => {
   const [ph, setph] = useState("");
   const [rainfall, setrainfall] = useState("");
   const [temperature, setTemperature] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+  const [, setIsLoading] = useState(false);
   const [recommendation, setRecommendation] = useState("");
   const [errorMessages, setErrorMessages] = useState({});
 
@@ -195,6 +194,7 @@ const FertilizerForm = () => {
                 </select>
               </div>
             </div>
+            <label>Nitrogen</label>
             <input
               name="nitrogen"
               value={nitrogen}
@@ -206,7 +206,7 @@ const FertilizerForm = () => {
             {errorMessages.nitrogen && (
               <p className="text-red-500">{errorMessages.nitrogen}</p>
             )}
-
+            <label>Phosphorous</label>
             <input
               name="phosphorus"
               value={phosphorus}
@@ -218,7 +218,7 @@ const FertilizerForm = () => {
             {errorMessages.phosphorus && (
               <p className="text-red-500">{errorMessages.phosphorus}</p>
             )}
-
+            <label>Potassium</label>
             <input
               name="potassium"
               value={potassium}
@@ -230,7 +230,7 @@ const FertilizerForm = () => {
             {errorMessages.potassium && (
               <p className="text-red-500">{errorMessages.potassium}</p>
             )}
-
+            <label>Ph value</label>
             <input
               name="ph"
               value={ph}
@@ -242,7 +242,7 @@ const FertilizerForm = () => {
             {errorMessages.ph && (
               <p className="text-red-500">{errorMessages.ph}</p>
             )}
-
+            <label>Rainfall</label>
             <input
               name="rainfall"
               value={rainfall}
@@ -254,7 +254,7 @@ const FertilizerForm = () => {
             {errorMessages.rainfall && (
               <p className="text-red-500">{errorMessages.rainfall}</p>
             )}
-
+            <label>Temperature</label>
             <input
               name="temperature"
               value={temperature}
@@ -291,7 +291,6 @@ const FertilizerForm = () => {
           </div>
         </div>
       </form>
-      <Footer />
     </>
   );
 };

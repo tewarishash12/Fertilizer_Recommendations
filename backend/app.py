@@ -41,7 +41,7 @@ def predict():
     except Exception as e:
         print(f'Error: {str(e)}')
         return jsonify({'error': str(e)})
-
+    
 # Run the Flask app
 if __name__ == '__main__':
     app.run(debug=True)
