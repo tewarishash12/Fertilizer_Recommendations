@@ -28,36 +28,12 @@ const Header = () => {
             >
               Home
             </li>
-            {/* <li
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
-              onClick={() => navigate("/voice")}
-            >
-              Voice Help
-            </li> */}
-            {/* <li
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
-              onClick={() => navigate("/crop")}
-            >
-              Crop Recommendation
-            </li> */}
             <li
               onClick={() => navigate("/fertilizer")}
               className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
             >
               Fertilizer Recommendation
             </li>
-            {/* <li
-              onClick={() => navigate("/disease")}
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
-            >
-              Disease Prediction
-            </li> */}
-            {/* <li
-              onClick={() => navigate("/sms")}
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
-            >
-             Feedback
-            </li> */}
           </ul>
         </div>
       </div>
