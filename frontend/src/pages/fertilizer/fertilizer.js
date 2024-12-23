@@ -199,7 +199,7 @@ const FertilizerForm = () => {
               name="nitrogen"
               value={nitrogen}
               onChange={(e) => handleChange(e, setNitrogen, 20, 150)}
-              className="w-3/5 my-2"
+              className="w-3/5 h-[40px] my-2 text-sm"
               type="number"
               placeholder="Enter nitrogen value (20-150)"
             />
@@ -211,7 +211,7 @@ const FertilizerForm = () => {
               name="phosphorus"
               value={phosphorus}
               onChange={(e) => handleChange(e, setPhosphorus, 20, 90)}
-              className="w-3/5 my-2"
+              className="w-3/5 h-[40px] my-2 text-sm"
               type="number"
               placeholder="Enter phosphorus value (20-90)"
             />
@@ -223,7 +223,7 @@ const FertilizerForm = () => {
               name="potassium"
               value={potassium}
               onChange={(e) => handleChange(e, setPotassium, 5, 150)}
-              className="w-3/5 my-2"
+              className="w-3/5 h-[40px] my-2 text-sm"
               type="number"
               placeholder="Enter potassium value (5-150)"
             />
@@ -235,7 +235,7 @@ const FertilizerForm = () => {
               name="ph"
               value={ph}
               onChange={(e) => handleChange(e, setph, 5.5, 8.5, true)}
-              className="w-3/5 my-2"
+              className="w-3/5 h-[40px] my-2 text-sm"
               type="text"
               placeholder="Enter pH value (5.5-8.5)"
             />
@@ -247,7 +247,7 @@ const FertilizerForm = () => {
               name="rainfall"
               value={rainfall}
               onChange={(e) => handleChange(e, setrainfall, 300, 1700)}
-              className="w-3/5 my-2"
+              className="w-3/5 h-[40px] my-2 text-sm"
               type="number"
               placeholder="Enter rainfall value (300-1700)"
             />
@@ -259,7 +259,7 @@ const FertilizerForm = () => {
               name="temperature"
               value={temperature}
               onChange={(e) => handleChange(e, setTemperature, 10, 40)}
-              className="w-3/5 my-2"
+              className="w-3/5 h-[40px] my-2 text-sm"
               type="number"
               placeholder="Enter temperature value (10-40)"
             />
